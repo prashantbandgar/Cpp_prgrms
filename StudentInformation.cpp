@@ -27,17 +27,9 @@ class Student{
 		}
 };
 int main(){
-	
-	Student S[10];
-	
-	int n,i;
-	cout<<"Enter number of Students"<<endl;
-	cin>>n;
-	for(i=1;i<=n;i++)
-	{
-		S[i].getData();
-		S[i].displayData();
-	}
+	Student s1;
+	s1.getData();
+	s1.displayData();
 	
 	
 }
